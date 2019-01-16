@@ -65,7 +65,7 @@ export default class Restaurants extends Component{
 			routeName: 'addRestaurant'
 		});
 		
-		this.props.navigation.dispacth(NavigationAction);
+		this.props.navigation.dispatch(navigateAction);
 	}
 	
 	restaurantDetail (restaurant){
